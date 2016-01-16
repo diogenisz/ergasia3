@@ -1,7 +1,7 @@
-package movie;
+package ticketv1;
 import java.util.Scanner;
 
-public class MovieSelect {
+public class movie {
 		//1)get name
 		//2)select Movie
 		//3)select seats 
@@ -14,9 +14,12 @@ public class MovieSelect {
 	static int number;
 	
 	public static void main(String[] args) {
-		System.out.println("Please input name");
+		/*System.out.println("Please input name");
 		String name=scan.nextLine();
-		System.out.println(name);
+		System.out.println(name);*/
+		getName();
+		getMovie();
+		getSeats();
 	
 	
 	
@@ -38,6 +41,3 @@ public class MovieSelect {
 	}
 
 }
-
-
-
